@@ -1,0 +1,276 @@
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.header p {
+    display: flex;
+    align-items: center;
+}
+
+.header .logoIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.Web {
+    color: white;
+    font-size: 25px;
+}
+
+.Work {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header button {
+    font-size: 15px;
+    padding:  15px 70px;
+    border: 2px #8276FF solid;
+    border-radius: 35px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.afterHeaderPart {
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.leftSide .yellowSpan{
+    color: #FFC759;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.leftSide .whiteSpan {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.motivationSentence {
+    color: white;
+}
+
+.leftSide button {
+    padding: 15px 30px;
+    width: 250px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #8276FF;
+    border-radius: 30px;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.leftSide .fourtheenDay {
+    color: white;
+}   
+
+.leftSide .starsText {
+    color: white;
+}
+
+.leftSide .fiftyOneK {
+    font-weight: bold;
+}
+
+.leftSide .reviewsFromCompanies {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.rightSide {
+    position: relative;
+}
+
+.borderImg {
+    width: 100%;
+}
+
+.rightSide .insideBorderImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+}
+
+.starsText {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.reviewStars {
+    width: 70px;
+    height: 20px;
+}
+
+.fourtheenDay {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.fourtheenDay .doneLogo {
+    width: 25px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .header {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 840px;
+    }
+
+    .afterHeaderPart {
+        margin: 50px auto;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leftSide .reviewStars span{
+        word-wrap: break-word;
+    }
+
+    
+.leftSide .yellowSpan{
+    font-size: 30px;
+}
+
+.leftSide .whiteSpan {
+    font-size: 25px;
+}
+
+
+.borderImg {
+    width: 100%;
+}
+
+}   
+
+@media only screen and (max-width: 860px) {
+    .header {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 450px;
+    }
+
+    .afterHeaderPart {
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .leftSide .reviewStars span{
+        word-wrap: break-word;
+    }
+
+    
+.leftSide .yellowSpan{
+    font-size: 30px;
+}
+
+.leftSide .whiteSpan {
+    font-size: 25px;
+}
+
+.borderImg {
+    width: 50%;
+}
+
+.rightSide .insideBorderImg{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(-125%, -80%);
+    width: 200px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .header {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    .afterHeaderPart {
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+.borderImg {
+    width: 50%;
+}
+
+.rightSide .insideBorderImg{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(-130%, -90%);
+    width: 130px;
+}
+.header {
+    width: 300px;
+}
+
+.header .logoIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.Web {
+    font-size: 20px;
+}
+
+.Work {
+    font-size: 20px;
+}
+
+.header button {
+    font-size: 15px;
+    padding:  10px 20px;
+
+}
+
+}

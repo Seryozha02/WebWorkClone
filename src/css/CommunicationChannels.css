@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img{
+    max-width: 100%;
+  }
+  .css-jpln7h-MuiTabs-scroller{
+    overflow: visible !important;
+  }
+  .css-1ujnqem-MuiTabs-root{
+    overflow: visible !important;
+  }
+  .css-1aquho2-MuiTabs-indicator{
+    background-color: #E7E9F2 !important;
+    height: 5px !important;
+    top: 100%;
+    transform: translateY(-50%);
+  }
+  
+  
+  .CommChannelsDiv{
+    display: flex;
+    column-gap: 25px;
+    height: 440px;
+    padding: 15px 0;
+  }
+  .CommChannelsLeftSide{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    row-gap: 15px;
+    flex-basis: 50%;
+    color: #E7E9F2;
+  }
+  .CommChannelsLeftSide > p{
+    font-size: 12px;
+  }
+  .CommChannelsLeftSide > p > strong {
+    font-weight: bolder;
+    font-size: 12.5px;
+  }
+  .CommChannelsLeftSide > p > a{
+    color: #E7E9F2;
+    text-decoration: underline;
+  }
+  .CommChannelsLeftSide > .signUpButton{
+    color: #E7E9F2;
+    background-color: #8276FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 31.0938px;
+  }
+  .CommChannelsLeftSide > ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 400px;
+  }
+  .CommChannelsLeftSide > ul > li{
+    font-size: 16px;
+  }
+  .signUpButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E7E9F2;
+    background-color: #8276FF;
+    font-size: 18px;
+    width: 240px;
+    border-radius: 31.0938px;
+    line-height: 50px;
+  }
+  
+
+  @media only screen and (max-width: 1250px) {
+
+    .CommChannelsDiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      column-gap: 5px;
+      height: 440px;
+    }
+
+    .CommChannelsLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 15px;
+    }
+
+    .CommChannels{
+      max-width: 40%;
+      
+    }
+
+    .ImgForCommChannels{
+      max-width: 50%;
+      
+    }
+    .CommChannelsLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .CommChannelsLeftSide > p{
+      font-size: 15px;
+    }
+
+    .CommChannelsLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .CommChannelsLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .CommChannelsLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .CommChannelsLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      width: 600px;
+    }
+    .CommChannelsLeftSide > ul > li{
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+
+    .CommChannelsLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 10px;
+    }
+
+    .ImgForCommChannels{
+      max-width: 50%;
+      
+    }
+    .CommChannelsLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .CommChannelsLeftSide > p{
+      font-size: 13px;
+    }
+
+    .CommChannelsLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .CommChannelsLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .CommChannelsLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .CommChannelsLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 300px;
+    }
+    .CommChannelsLeftSide > ul > li{
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .CommChannelsLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 10px;
+    }
+
+    .ImgForCommChannels{
+      max-width: 50%;
+      
+    }
+    .CommChannelsLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .CommChannelsLeftSide > p{
+      font-size: 13px;
+    }
+
+    .CommChannelsLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .CommChannelsLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .CommChannelsLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .CommChannelsLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 300px;
+    }
+    .CommChannelsLeftSide > ul > li{
+      font-size: 10px;
+    }
+  }

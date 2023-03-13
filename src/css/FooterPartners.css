@@ -1,0 +1,31 @@
+.companiesTogether {
+   margin-top: 50px;
+}
+
+.companiesText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.companies1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 15px;
+    row-gap: 50px;
+    margin-top: 25px;
+}
+
+.companies2 {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 15px;
+    
+}

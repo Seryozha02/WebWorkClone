@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .css-jpln7h-MuiTabs-scroller{
+    overflow: visible !important;
+  }
+  .css-1ujnqem-MuiTabs-root{
+    overflow: visible !important;
+  }
+  .css-1aquho2-MuiTabs-indicator{
+    background-color: #E7E9F2 !important;
+    height: 5px !important;
+    top: 100%;
+    transform: translateY(-50%);
+  }
+  
+  
+  .TaskManagementDiv{
+    display: flex;
+    column-gap: 25px;
+    height: 440px;
+    padding: 15px 0;
+  }
+  .TaskManagementLeftSide{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    row-gap: 15px;
+    flex-basis: 50%;
+    color: #E7E9F2;
+  }
+  .TaskManagementLeftSide > p{
+    font-size: 12px;
+  }
+  .TaskManagementLeftSide > p > strong {
+    font-weight: bolder;
+    font-size: 12.5px;
+  }
+  .TaskManagementLeftSide > p > a{
+    color: #E7E9F2;
+    text-decoration: underline;
+  }
+  .taskManagementButtons >  .signUpButton{
+    color: #E7E9F2;
+    background-color: #8276FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 31.0938px;
+  }
+  .TaskManagementLeftSide > ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 400px;
+  }
+  .TaskManagementLeftSide > ul > li{
+    font-size: 16px;
+  }
+  .signUpButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E7E9F2;
+    background-color: #8276FF;
+    font-size: 18px;
+    width: 240px;
+    border-radius: 31.0938px;
+    line-height: 50px;
+  }
+  
+  .taskManagementButtons{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .signUpGoogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    color: rgba(59,60,78,.6);
+    background-color: #fff;
+    font-size: 18px;
+    width: 220px;
+    border-radius: 31.0938px;
+    line-height: 50px;
+  }
+
+  @media only screen and (max-width: 1250px) {
+ 
+    .TaskManagementDiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      column-gap: 5px;
+      height: 440px;
+    }
+
+    .TaskManagementLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 15px;
+    }
+
+    .taskManagementButtons {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .ImgForTaskManagememt{
+      max-width: 40%;
+      
+    }
+    .TaskManagementLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .TaskManagementLeftSide > p{
+      font-size: 15px;
+    }
+
+    .TaskManagementLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .TaskManagementLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .taskManagementButtons > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+
+    .taskManagementButtons > .signUpGoogle{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+
+    .TaskManagementLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      width: 600px;
+    }
+    .TaskManagementLeftSide > ul > li{
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+
+    .TaskManagementLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 10px;
+    }
+
+    .ImgForTaskManagememt{
+      max-width: 50%;
+      
+    }
+    .TaskManagementLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .TaskManagementLeftSide > p{
+      font-size: 13px;
+    }
+
+    .TaskManagementLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .TaskManagementLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .TaskManagementLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .TaskManagementLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 300px;
+    }
+    .TaskManagementLeftSide > ul > li{
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+ 
+    .TaskManagementLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 10px;
+    }
+
+    .ImgForTaskManagememt, .prodMonitoring{
+      max-width: 50%;
+      
+    }
+    .TaskManagementLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .TaskManagementLeftSide > p{
+      font-size: 13px;
+    }
+
+    .TaskManagementLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .TaskManagementLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .TaskManagementLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .TaskManagementLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 300px;
+    }
+    .TaskManagementLeftSide > ul > li{
+      font-size: 10px;
+    }
+  }

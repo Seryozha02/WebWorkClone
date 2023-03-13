@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .css-jpln7h-MuiTabs-scroller{
+    overflow: visible !important;
+  }
+  .css-1ujnqem-MuiTabs-root{
+    overflow: visible !important;
+  }
+  .css-1aquho2-MuiTabs-indicator{
+    background-color: #E7E9F2 !important;
+    height: 5px !important;
+    top: 100%;
+    transform: translateY(-50%);
+  }
+  
+  
+  .ProdMonitoringDiv{
+    display: flex;
+    column-gap: 25px;
+    height: 440px;
+    padding: 15px 0;
+  }
+  .ProdMonitoringLeftSide{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    row-gap: 15px;
+    flex-basis: 50%;
+    color: #E7E9F2;
+  }
+  .ProdMonitoringLeftSide > p{
+    font-size: 12px;
+  }
+  .ProdMonitoringLeftSide > p > strong {
+    font-weight: bolder;
+    font-size: 12.5px;
+  }
+  .ProdMonitoringLeftSide > p > a{
+    color: #E7E9F2;
+    text-decoration: underline;
+  }
+  .ProdMonitoringLeftSide > .signUpButton{
+    color: #E7E9F2;
+    background-color: #8276FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 31.0938px;
+  }
+  .ProdMonitoringLeftSide > ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 400px;
+  }
+  .ProdMonitoringLeftSide > ul > li{
+    font-size: 16px;
+  }
+  .signUpButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E7E9F2;
+    background-color: #8276FF;
+    font-size: 18px;
+    width: 240px;
+    border-radius: 31.0938px;
+    line-height: 50px;
+  }
+  .creditReqInfo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 25px;
+  }
+  .reviews{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 15px;
+  }
+  .reviewInfo{
+    font-size: 18px;
+  }
+  .partners{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .taskManagementButtons{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .signUpGoogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    color: rgba(59,60,78,.6);
+    background-color: #fff;
+    font-size: 18px;
+    width: 220px;
+    border-radius: 31.0938px;
+    line-height: 50px;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .tabContainer{
+      padding: 20px;
+      width: 800px;
+      margin: 0 auto;
+      background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+      border-radius: 26px;
+    }
+
+    .ProdMonitoringDiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      column-gap: 5px;
+      height: 440px;
+    }
+
+    .ProdMonitoringLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 5px;
+    }
+
+    .ImgForProdMonitoring, .prodMonitoring, .taskManagememt, .CommChannels, .OnlReports{
+      max-width: 40%;
+      
+    }
+    .ProdMonitoringLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .ProdMonitoringLeftSide > p{
+      font-size: 15px;
+    }
+
+    .ProdMonitoringLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .ProdMonitoringLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .ProdMonitoringLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .ProdMonitoringLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      width: 600px;
+    }
+    .ProdMonitoringLeftSide > ul > li{
+      font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+    .tabContainer{
+      padding: 20px;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .tab{
+      flex-basis: 20%;
+    }
+    .tab > span{
+      font-size: 5px;
+      letter-spacing: .5px;
+    }
+
+    .partners{
+      display: none;
+     direction: column;
+      
+    }
+
+    .ProdMonitoringLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 10px;
+    }
+
+    .ImgForProdMonitoring, .prodMonitoring{
+      max-width: 50%;
+      
+    }
+    .ProdMonitoringLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .ProdMonitoringLeftSide > p{
+      font-size: 13px;
+    }
+
+    .ProdMonitoringLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .ProdMonitoringLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .ProdMonitoringLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .ProdMonitoringLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 300px;
+    }
+    .ProdMonitoringLeftSide > ul > li{
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .tabContainer{
+      padding: 20px;
+      width: 380px;
+      margin: 0 auto;
+    }
+
+    .tab{
+      flex-basis: 20%;
+    }
+    .tab > span{
+      font-size: 5px;
+      letter-spacing: .5px;
+    }
+
+    .ProdMonitoringLeftSide{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      row-gap: 10px;
+    }
+
+    .ImgForProdMonitoring, .prodMonitoring{
+      max-width: 50%;
+      
+    }
+    .ProdMonitoringLeftSide > h3 {
+        font-size: 20px;
+    }
+
+    .ProdMonitoringLeftSide > p{
+      font-size: 13px;
+    }
+
+    .ProdMonitoringLeftSide > p > strong {
+      font-weight: bolder;
+      font-size: 12.5px;
+    }
+    .ProdMonitoringLeftSide > p > a{
+      text-decoration: underline;
+    }
+    .ProdMonitoringLeftSide > .signUpButton{
+      width: 220px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    .ProdMonitoringLeftSide > ul{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      width: 300px;
+    }
+    .ProdMonitoringLeftSide > ul > li{
+      font-size: 10px;
+    }
+  }

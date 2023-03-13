@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .tabContainer{
+    padding: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
   }
-  to {
-    transform: rotate(360deg);
+  .boxOfTabs {
+    display: flex;
+    justify-content: space-evenly;
   }
-}
+  
+  .tab{
+    row-gap: 5px;
+    flex-basis: 20%;
+  }
+  .tab > span{
+    row-gap: 15px;
+    color: #E7E9F2;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: .5px;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .tabContainer{
+      padding: 20px;
+      width: 800px;
+      margin: 0 auto;
+      background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+      border-radius: 26px;
+    }
+
+  }
+
+  @media only screen and (max-width: 860px) {
+    .tabContainer{
+      padding: 20px;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .tab{
+      flex-basis: 20%;
+    }
+    .tab > span{
+      font-size: 5px;
+      letter-spacing: .5px;
+    }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+    .tabContainer{
+      padding: 20px;
+      width: 380px;
+      margin: 0 auto;
+    }
+
+    .tab{
+      flex-basis: 20%;
+    }
+    .tab > span{
+      font-size: 5px;
+      letter-spacing: .5px;
+    }
+
+  }

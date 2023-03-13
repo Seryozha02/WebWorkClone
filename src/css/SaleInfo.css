@@ -1,0 +1,16 @@
+.saleInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 80px;
+}
+.titleForSales{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+}

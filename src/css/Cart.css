@@ -1,0 +1,93 @@
+.cart{
+    position: relative;
+    padding: 50px 100px;
+    color: #FFFFFF;
+    background-color: rgb(39 36 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    width: 110px;
+}
+.price{
+    font-size: 42px;
+    position: relative;
+}
+.price > span {
+    position: absolute;
+    right: 110%;
+    bottom: 55%;
+    font-size: 20px;
+}
+.price > span::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: rotateZ(-20deg);
+    width: 110%;
+    height: 3px;
+    background-color: #F354B4;
+}
+button{
+    background: #8276FF;
+    border-radius: 31.0938px;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.saleDuration{
+    position: absolute;
+    top: 92%;
+    left: 65%;
+    font-size: 14px;
+    letter-spacing: 0.007em;
+}
+.salePart{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    font-family: 'Design';
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 35px;
+    left: 65%;
+    bottom: 75%;
+    width: 170px;
+    height: 170px;
+    background-image: url("../images/neon outline 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+    
+ul{
+    list-style: none;
+    width: 120px;
+}
+
+.price > span {
+    right: 130%;
+}
+
+.salePart{
+    font-size: 30px;
+    left: 65%;
+    bottom: 75%;
+    width: 150px;
+    height: 150px;
+}
+
+}
